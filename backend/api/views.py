@@ -1,9 +1,10 @@
-from django.shortcuts import render
 from django.contrib.auth.models import User
+from django.shortcuts import render
 from rest_framework import generics
-from .serializers import UserSerializer, NoteSerializer
-from rest_framework.permissions import IsAuthenticated, AllowAny
+from rest_framework.permissions import AllowAny, IsAuthenticated
+
 from .models import Note
+from .serializers import NoteSerializer, UserSerializer
 
 
 class NoteListCreate(generics.ListCreateAPIView):
@@ -12,7 +13,9 @@ class NoteListCreate(generics.ListCreateAPIView):
 
     def get_queryset(self):
         user = self.request.user
-        return Note.objects.filter(author=user)
+        return Note.objects.filter(
+            author=user
+        )  # filter notes according to user who has written them
 
     def perform_create(self, serializer):
         if serializer.is_valid():
@@ -30,7 +33,9 @@ class NoteDelete(generics.DestroyAPIView):
         return Note.objects.filter(author=user)
 
 
-class CreateUserView(generics.CreateAPIView):
-    queryset = User.objects.all()
+class CreateUserView(
+    generics.CreateAPIView
+):  # generic view built into django to automaically handle creating a new user or creating a new object
+    queryset = User.objects.all()  # to not create user that already exists
     serializer_class = UserSerializer
-    permission_classes = [AllowAny]
+    permission_classes = [AllowAny]  # who can call this
