@@ -132,37 +132,37 @@ The ultimate goal is to deploy both the backend and frontend and ensure they are
 
 ## Application Screenshots
 
-<details>
-    <summary>View Application Screenshots</summary>
+<details> 
+   <summary>View Application Screenshots</summary>
 
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-34-22.png" alt="Login Page">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-34-22.png?raw=true" alt="Login Page">
+</p>
     
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-34-44.png" alt="Register Page">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-34-44.png?raw=true" alt="Register Page">
+</p>
     
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-35-22.png" alt="Registering User">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-35-22.png?raw=true" alt="Registering User">
+</p>
     
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-35-47.png" alt="Notes Page">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-35-47.png?raw=true" alt="Notes Page">
+</p>
     
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-37-36.png" alt="Note Created">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-37-36.png?raw=true" alt="Note Created">
+</p>
     
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-37-47.png" alt="Second Note Addition">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-37-47.png?raw=true" alt="Second Note Addition">
+</p>
     
-    <p align="center">
-        <img src="./images/Screenshot%20from%202024-08-13%2021-40-59.png" alt="Second Note Added">
-    </p>
+<p align="center">
+    <img src="https://github.com/Aman1337g/Django-React-Notes-App/blob/main/images/Screenshot%20from%202024-08-13%2021-40-59.png?raw=true" alt="Second Note Added">
+</p>
 
-</details>
+</details> 
 
 By following these instructions, you will have a complete setup for a Django and React application with JWT authentication and deployment capabilities.
